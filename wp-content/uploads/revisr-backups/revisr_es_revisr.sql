@@ -19,12 +19,12 @@ CREATE TABLE `es_revisr` (
   `event` varchar(42) COLLATE latin1_general_ci NOT NULL,
   `user` varchar(60) COLLATE latin1_general_ci DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `es_revisr` WRITE;
 /*!40000 ALTER TABLE `es_revisr` DISABLE KEYS */;
-INSERT INTO `es_revisr` VALUES (1,'2016-03-05 09:40:25','Successfully backed up the database.','backup','bailoo');
+INSERT INTO `es_revisr` VALUES (1,'2016-03-05 09:40:25','Successfully backed up the database.','backup','bailoo'),(2,'2016-03-20 21:50:06','Successfully backed up the database.','backup','bailoo'),(3,'2016-03-20 22:07:24','Committed <a href=\"http://evolutionstudiodance.com/wp-admin/admin.php?page=revisr_view_commit&commit=9405df0&success=true\">#9405df0</a> to the local repository.','commit','bailoo');
 /*!40000 ALTER TABLE `es_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
